@@ -21,10 +21,23 @@
 
 
 			<form>
+				<p>autofocus</p>
+				<br>
 				<input type="text" placeholder="username" autofocus />
+				<p>datalist</p>
+				<br>
+				<input list="browsers" name="browser">
+				<datalist id="browsers">
+				  <option value="Internet Explorer">
+				  <option value="Firefox">
+				  <option value="Chrome">
+				  <option value="Opera">
+				  <option value="Safari">
+				</datalist>
 			</form>
 		</article>
 	</section>
+
 	<footer>footer</footer>
 </body>
 </html>
